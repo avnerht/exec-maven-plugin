@@ -6,6 +6,7 @@ script: "mvn --show-version --errors --batch-mode -Prun-its clean verify"
 cache:
     directories:
     - $HOME/.m2
+    - target
 branches:
     except:
         - gh-pages
